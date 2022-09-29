@@ -14,6 +14,11 @@
 		2A87FA3E28DAECE6004C40C6 /* MYSQLdatabaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A87FA3D28DAECE6004C40C6 /* MYSQLdatabaseTests.swift */; };
 		2A87FA4828DAECE6004C40C6 /* MYSQLdatabaseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A87FA4728DAECE6004C40C6 /* MYSQLdatabaseUITests.swift */; };
 		2A87FA4A28DAECE6004C40C6 /* MYSQLdatabaseUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A87FA4928DAECE6004C40C6 /* MYSQLdatabaseUITestsLaunchTests.swift */; };
+		2A87FA5728DAED06004C40C6 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A87FA5628DAED06004C40C6 /* ViewModel.swift */; };
+		2A87FA5928DAED73004C40C6 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A87FA5828DAED73004C40C6 /* Models.swift */; };
+		2ADD2A4328E060F2009E7082 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ADD2A4228E060F2009E7082 /* DetailView.swift */; };
+		2ADD2A4528E06BAF009E7082 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ADD2A4428E06BAF009E7082 /* CardView.swift */; };
+		2ADD2A4728E06CED009E7082 /* EditPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ADD2A4628E06CED009E7082 /* EditPost.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2A868DA428DC3D60007F0AFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		2A87FA2928DAECE2004C40C6 /* MYSQLdatabase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MYSQLdatabase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A87FA2C28DAECE2004C40C6 /* MYSQLdatabaseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MYSQLdatabaseApp.swift; sourceTree = "<group>"; };
 		2A87FA2E28DAECE2004C40C6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +50,11 @@
 		2A87FA4328DAECE6004C40C6 /* MYSQLdatabaseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MYSQLdatabaseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A87FA4728DAECE6004C40C6 /* MYSQLdatabaseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MYSQLdatabaseUITests.swift; sourceTree = "<group>"; };
 		2A87FA4928DAECE6004C40C6 /* MYSQLdatabaseUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MYSQLdatabaseUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2A87FA5628DAED06004C40C6 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		2A87FA5828DAED73004C40C6 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		2ADD2A4228E060F2009E7082 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		2ADD2A4428E06BAF009E7082 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		2ADD2A4628E06CED009E7082 /* EditPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditPost.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +105,16 @@
 		2A87FA2B28DAECE2004C40C6 /* MYSQLdatabase */ = {
 			isa = PBXGroup;
 			children = (
+				2A868DA428DC3D60007F0AFC /* Info.plist */,
 				2A87FA2C28DAECE2004C40C6 /* MYSQLdatabaseApp.swift */,
 				2A87FA2E28DAECE2004C40C6 /* ContentView.swift */,
+				2ADD2A4428E06BAF009E7082 /* CardView.swift */,
 				2A87FA3028DAECE5004C40C6 /* Assets.xcassets */,
 				2A87FA3228DAECE5004C40C6 /* Preview Content */,
+				2A87FA5628DAED06004C40C6 /* ViewModel.swift */,
+				2A87FA5828DAED73004C40C6 /* Models.swift */,
+				2ADD2A4228E060F2009E7082 /* DetailView.swift */,
+				2ADD2A4628E06CED009E7082 /* EditPost.swift */,
 			);
 			path = MYSQLdatabase;
 			sourceTree = "<group>";
@@ -258,7 +275,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				2A87FA2F28DAECE2004C40C6 /* ContentView.swift in Sources */,
+				2A87FA5728DAED06004C40C6 /* ViewModel.swift in Sources */,
 				2A87FA2D28DAECE2004C40C6 /* MYSQLdatabaseApp.swift in Sources */,
+				2ADD2A4328E060F2009E7082 /* DetailView.swift in Sources */,
+				2ADD2A4528E06BAF009E7082 /* CardView.swift in Sources */,
+				2A87FA5928DAED73004C40C6 /* Models.swift in Sources */,
+				2ADD2A4728E06CED009E7082 /* EditPost.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,6 +442,7 @@
 				DEVELOPMENT_TEAM = 9JRM3SAZ2F;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MYSQLdatabase/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -449,6 +472,7 @@
 				DEVELOPMENT_TEAM = 9JRM3SAZ2F;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MYSQLdatabase/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
